@@ -1,28 +1,27 @@
-// server/userData.js
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require("uuid");
 
 const mockUsers = [
   {
     id: uuidv4(),
-    name: 'John Doe',
-    email: 'john@example.com',
+    name: "John Doe",
+    email: "john@example.com",
     age: 30,
-    city: 'New York',
+    city: "New York",
   },
   {
     id: uuidv4(),
-    name: 'Jane Smith',
-    email: 'jane@example.com',
+    name: "Jane Smith",
+    email: "jane@example.com",
     age: 28,
-    city: 'San Francisco',
+    city: "San Francisco",
   },
   {
     id: uuidv4(),
-    name: 'Mike Johnson',
-    email: 'mike@example.com',
+    name: "Mike Johnson",
+    email: "mike@example.com",
     age: 35,
-    city: 'Chicago',
-  }
+    city: "Chicago",
+  },
 ];
 
 module.exports = {
