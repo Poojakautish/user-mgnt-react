@@ -22,6 +22,34 @@ const mockUsers = [
     age: 35,
     city: "Chicago",
   },
+  {
+    id: uuidv4(),
+    name: "Mike Johnson",
+    email: "mike@example.com",
+    age: 35,
+    city: "Chicago",
+  },
+  {
+    id: uuidv4(),
+    name: "Mike Johnson",
+    email: "mike@example.com",
+    age: 35,
+    city: "Chicago",
+  },
+  {
+    id: uuidv4(),
+    name: "Mike Johnson",
+    email: "mike@example.com",
+    age: 35,
+    city: "Chicago",
+  },
+  {
+    id: uuidv4(),
+    name: "Mike Johnson",
+    email: "mike@example.com",
+    age: 35,
+    city: "Chicago",
+  }
 ];
 
 module.exports = {
